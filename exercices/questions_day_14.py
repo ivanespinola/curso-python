@@ -18,4 +18,24 @@ class MyError(Exception):
     def __init__(self, message):
         self.message = message
 
+num = int(input())
+
+try:
+    if num < 10:
+        raise MyError("Input is less than 10")
+    elif num > 10:
+        raise MyError("Input is grater than 10")
+except MyError as ce:
+    print("The error raised: " + ce.message)
+
+# Assuming that we have some email addresses in the "username@companyname.com" format.
+# Write program to print the user name of a given email address.
+# Both user names and company names are composed of letters only.
+
+email = str(input())
+email = email.split('@')
+username = email[0]
+print(username)
+
+
 
