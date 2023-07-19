@@ -1,5 +1,4 @@
-# Curso Básico de Python
-
+<h1 align="center">Curso Básico de Python</h1>
 <p align="center" width="300">
    <img align="center" width="200" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" />
 </p>
